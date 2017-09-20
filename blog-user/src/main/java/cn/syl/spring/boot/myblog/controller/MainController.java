@@ -38,6 +38,11 @@ public class MainController {
         return "login";
     }
 
+    @GetMapping("/register")
+    public String register() {
+        return "register";
+    }
+
     /**
      * 注册用户
      * @param user
