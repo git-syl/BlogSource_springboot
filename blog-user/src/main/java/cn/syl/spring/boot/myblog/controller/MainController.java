@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 public class MainController {
     @Autowired
     private UserService userService;
-    
+
     @GetMapping("/")
     public String root() {
         return "redirect:/index";
